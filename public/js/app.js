@@ -2,17 +2,18 @@ $(document).ready(() => {
     // initial logo scaling
     $("#logo").effect("scale", {
         percent: 500
-    }, 5 * 1000, () => {
+    }, 4.75 * 1000, () => {
         $("#logo").fadeOut("fast", () => {
-            let angle = 0;
-            $("#fadeInLogo").fadeIn("fast");
+            $("#fadeInLogo").fadeIn("slow", () => {
+                $(".navText").fadeIn("slow");
+            });
             $("#fadeInLogo").css("display", "flex");
-            setInterval(() => {
-                angle += 1;
-                $("#inlineLogo").rotate(angle);
-            }, 50);
             randomTimeout();
         });
+    }).rotate({
+        duration: 6000,
+        angle: 90,
+        animateTo: 360
     });
 
     function distort(element) {

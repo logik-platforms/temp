@@ -12,6 +12,7 @@ body {
 #masterContainer {
     width: 100%;
     min-height: 100vh;
+    position: relative;
 }
 
 #pageCenter {
@@ -60,4 +61,34 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.navText {
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
+}
+
+#LandRBtns {
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+}
+
+#contactBtn {
+    right: 0;
+    transform: rotate(-90deg)
+}
+
+.navBtn {
+    position: absolute;
 }
