@@ -1,6 +1,12 @@
+body {
+    background: #000000;
+    /* background: url(../img/staticNoise.png) */
+}
+
 #logo {
     width: 100px;
     height: 95.2px;
+    /* display: none; */
 }
 
 #masterContainer {
@@ -15,6 +21,43 @@
     align-items: center;
 }
 
-body {
-    background: #000000;
+#inlineLogo {
+    display: inline;
+    align-self: center;
+    width: 100px;
+}
+
+#titleText {
+    padding-top: 0.65em;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    z-index: 2000;
+}
+
+#Lslash {
+    letter-spacing: -0.35px;
+}
+
+#slashP {
+    letter-spacing: -4px;
+}
+
+#fadeInLogo {
+    display: none;
+    /* display: flex; */
+    align-self: center;
+}
+
+.distort {
+    -ms-transform: skew(-10deg);
+    /* IE 9 */
+    -webkit-transform: skew(-10deg);
+    /* Safari 3-8 */
+    transform: skew(-10deg);
+    background: url(../img/staticNoise.png) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
 }
