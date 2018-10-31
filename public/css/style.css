@@ -1,94 +1,99 @@
-body {
-    background: #000000;
-    /* background: url(../img/staticNoise.png) */
-}
+@media (min-width: 992px){
+    body {
+        background: #000000 !important;
+        background-color: black;
+        /* background: url(../img/staticNoise.png) */
+    }
+    
+    #logo {
+        width: 100px;
+        height: 95.2px;
+        /* display: none; */
+    }
+    
+    #masterContainer {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+    }
+    
+    #pageCenter {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #inlineLogo {
+        display: inline;
+        align-self: center;
+        width: 100px;
+    
+    }
+    
+    #titleText {
+        padding-top: 0.65em;
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+        font-family: 'Orbitron', sans-serif;
+        z-index: 2000;
+    }
+    
+    #Lslash {
+        letter-spacing: -0.35px;
+    }
+    
+    #slashP {
+        letter-spacing: -4px;
+    }
+    
+    #fadeInLogo {
+        display: none;
+        /* display: flex; */
+        align-self: center;
+    }
+    
+    .distort {
+        -ms-transform: skew(-10deg);
+        /* IE 9 */
+        -webkit-transform: skew(-10deg);
+        /* Safari 3-8 */
+        transform: skew(-10deg);
+        background: url(../img/staticNoise.png) no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bolder;
+    }
+    
+    button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+    
+    .navText {
+        color: #ffffff;
+        font-size: 20px;
+        display: none;
+    }
+    
+    #LandRBtns {
+        position: absolute;
+        width: 100vw;
+        top: 50%;
+    }
+    
+    #contactBtn {
+        right: 0;
+        transform: rotate(-90deg)
+    }
+    
+    .navBtn {
+        position: absolute;
+    }
 
-#logo {
-    width: 100px;
-    height: 95.2px;
-    /* display: none; */
-}
-
-#masterContainer {
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-}
-
-#pageCenter {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#inlineLogo {
-    display: inline;
-    align-self: center;
-    width: 100px;
-}
-
-#titleText {
-    padding-top: 0.65em;
-    text-align: center;
-    color: #ffffff;
-    font-size: 50px;
-    font-family: 'Orbitron', sans-serif;
-    z-index: 2000;
-}
-
-#Lslash {
-    letter-spacing: -0.35px;
-}
-
-#slashP {
-    letter-spacing: -4px;
-}
-
-#fadeInLogo {
-    display: none;
-    /* display: flex; */
-    align-self: center;
-}
-
-.distort {
-    -ms-transform: skew(-10deg);
-    /* IE 9 */
-    -webkit-transform: skew(-10deg);
-    /* Safari 3-8 */
-    transform: skew(-10deg);
-    background: url(../img/staticNoise.png) no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bolder;
-}
-
-button {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-}
-
-.navText {
-    color: #ffffff;
-    font-size: 20px;
-    display: none;
-}
-
-#LandRBtns {
-    position: absolute;
-    width: 100vw;
-    top: 50%;
-}
-
-#contactBtn {
-    right: 0;
-    transform: rotate(-90deg)
-}
-
-.navBtn {
-    position: absolute;
 }
