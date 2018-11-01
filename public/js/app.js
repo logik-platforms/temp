@@ -1,11 +1,18 @@
 $(document).ready(() => {
     // initial logo scaling
+    $(".aboutBtns").rotate(90);
+    $("#contactBtn").rotate(-90);
     $("#logo").effect("scale", {
         percent: 500
     }, 4.75 * 1000, () => {
         $("#logo").fadeOut("fast", () => {
             $("#fadeInLogo").fadeIn("slow", () => {
+                $("#textTitleWrapper").width($("#textTitle").width());
                 $(".navText").fadeIn("slow");
+                console.log($("#aboutBtn").css("display"));
+                $(".aboutBtns").on("click", () => {
+                    toggleAbout();
+                });
             });
             $("#fadeInLogo").css("display", "flex");
             randomTimeout();
@@ -38,12 +45,18 @@ $(document).ready(() => {
             randomTimeout();
         }, (Math.random() * 7 + 2) * 1000);
     }
+
+    function toggleAbout() {
+        $("#aboutModal").toggle("fold", 1 * 1000);
+    }
 });
 
-$('#contactBtn').on("click", function() {
-
+$('#contactBtn').on("click", function () {
+    if ($("#aboutModal").css("display") === "block") {
+        $("#aboutModal").toggle("fold", 1 * 1000);
+    };
     $('#contactModal').modal();
-})
+});
 
 
 
@@ -86,13 +99,6 @@ $("#submit").on("click", function (event) {
 database.ref().on("child_added", function (snapshot) {
 
     var sv = snapshot.val();
-
-
-    console.log(sv.fullName);
-    console.log(sv.email);
-    console.log(sv.contactNumber);
-    console.log(sv.message);
-
 
     $("#contact-name").empty();
     $("#contact-email").empty();

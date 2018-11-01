@@ -1,59 +1,65 @@
-@media (min-width: 992px){
+@media (min-width: 992px) {
     body {
         background: #000000 !important;
         background-color: black;
-        /* background: url(../img/staticNoise.png) */
+        -webkit-user-select: none;
+        /* Chrome/Safari */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* IE10+ */
+        /* Rules below not implemented in browsers yet */
+        -o-user-select: none;
+        user-select: none;
     }
-    
     #logo {
         width: 100px;
         height: 95.2px;
         /* display: none; */
     }
-    
     #masterContainer {
         width: 100%;
         min-height: 100vh;
         position: relative;
     }
-    
     #pageCenter {
         min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
     #inlineLogo {
-        display: inline;
-        align-self: center;
         width: 100px;
-    
     }
-    
+    #titleTextWrapper {
+        position: relative;
+        margin-bottom: 0.3em;
+        width: 105px;
+    }
     #titleText {
-        padding-top: 0.65em;
-        text-align: center;
+        /* padding-top: 0.65em; */
+        /* text-align: center; */
         color: #ffffff;
         font-size: 50px;
         font-family: 'Orbitron', sans-serif;
+        position: absolute;
         z-index: 2000;
+        float: right;
+        margin-top: 0.35em;
     }
-    
     #Lslash {
         letter-spacing: -0.35px;
     }
-    
     #slashP {
         letter-spacing: -4px;
     }
-    
     #fadeInLogo {
         display: none;
+        /* position: absolute; */
         /* display: flex; */
-        align-self: center;
+        /* align-self: center; */
+        /* padding: 1em; */
     }
-    
     .distort {
         -ms-transform: skew(-10deg);
         /* IE 9 */
@@ -65,7 +71,6 @@
         -webkit-text-fill-color: transparent;
         font-weight: bolder;
     }
-    
     button {
         background-color: transparent;
         background-repeat: no-repeat;
@@ -74,26 +79,57 @@
         overflow: hidden;
         outline: none;
     }
-    
     .navText {
         color: #ffffff;
         font-size: 20px;
         display: none;
     }
-    
     #LandRBtns {
         position: absolute;
         width: 100vw;
         top: 50%;
     }
-    
     #contactBtn {
         right: 0;
-        transform: rotate(-90deg)
+        /* transform: rotate(-90deg) */
     }
-    
     .navBtn {
         position: absolute;
     }
-
+    #contactModal {
+        z-index: 3000;
+    }
+    #aboutBtn {
+        left: 0;
+        /* display: block !important; */
+        z-index: 1000;
+        /* transform: rotate(90deg); */
+    }
+    .aboutBtns {
+        left: 0;
+        z-index: 1000;
+    }
+    #aboutModal {
+        background-image: linear-gradient(#6c757d, #000000);
+        height: 70vh;
+        border-radius: 0 20px 20vh 0;
+        display: none;
+        position: absolute;
+        width: 33.5vw;
+        top: 50%;
+        margin-top: -30vh;
+        border: solid white;
+        border-width: 5px 2px 0 0;
+        padding: 10px 20px 10px 5.5vw;
+    }
+    #aboutTitle {
+        font-family: 'Orbitron', sans-serif;
+        color: #000000;
+        text-align: right;
+        white-space: nowrap;
+    }
+    #aboutBody {
+        color: #ffffff;
+        text-align: right;
+    }
 }
