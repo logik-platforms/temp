@@ -39,13 +39,18 @@ $(document).ready(() => {
         }, (Math.random() * 7 + 2) * 1000);
     }
 });
-require("dotenv").config();
-var keys = require(".keys.js");
-// var apiKey = new whatShouldThisBe(keys.firebase);
+
+$('#contactBtn').on("click", function() {
+
+    $('#contactModal').modal();
+})
+
+
+
 
 // Initialize Firebase
 var config = {
-    apiKey: apiKey,
+    apiKey: "AIzaSyB8bLHN3s0jMK3uCqHg_Xt0vm25Pf1Px2Y",
     authDomain: "logiktemp.firebaseapp.com",
     databaseURL: "https://logiktemp.firebaseio.com",
     projectId: "logiktemp",
@@ -89,10 +94,10 @@ database.ref().on("child_added", function (snapshot) {
     console.log(sv.message);
 
 
-    $("#contact-name").clear();
-    $("#contact-email").clear();
-    $("#contact-number").clear();
-    $("#message-text").clear();
+    $("#contact-name").empty();
+    $("#contact-email").empty();
+    $("#contact-number").empty();
+    $("#message-text").empty();
 
     // Handle the errors
 }, function (errorObject) {
