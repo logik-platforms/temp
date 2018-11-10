@@ -6,9 +6,10 @@ import Services from "./components/Services";
 import Technologes from "./components/Technologies";
 import Wrapper from "./components/Wrapper";
 import Contract from "./components/Contact";
-
-
-
+import Home from "./components/pages/Home";
+import Service from "./components/pages/Service";
+import Technologies from "./components/pages/Technologies";
+import Contact from "./components/pages/Contact";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/" component={Home} />
     </div>
   </Router>
+  
     );
   }
 
