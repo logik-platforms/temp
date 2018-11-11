@@ -1,0 +1,46 @@
+[{
+        "id": 1,
+        "name": "Java",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Python",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Node.js",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "PHP",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "name": "Swift",
+        "image": ""
+    },
+    {
+        "id": 7,
+        "name": "mondoDB",
+        "image": ""
+    },
+    {
+        "id": 8,
+        "name": "MySql",
+        "image": ""
+    },
+    {
+        "id": 9,
+        "name": "Cloud Computing",
+        "image": ""
+    }
+]

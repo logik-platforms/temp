@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Adaptable",
+        "icon":"",
+        "message": "Pluggable components that facilitate evolution and fit your changing needs."
+    },
+    {
+        "id": 2,
+        "name": "Scalable",
+        "icon":"",
+        "message": "Robust infrastructure designed for long-term business growth."
+    }, 
+    {
+        "id": 3,
+        "name": "Secure",
+        "icon":"",
+        "message": "Resilience to external threats and internal errors."
+    }, 
+    {
+        "id": 4,
+        "name": "Reliable",
+        "icon":"",
+        "message": "Consistent performance as traffic, volume, and usage ramps up."
+    }
+]

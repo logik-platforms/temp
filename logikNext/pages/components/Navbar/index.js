@@ -18,7 +18,7 @@ const NavBar = () => {
             <Navbar.Collapse>
                 <Nav pullRight>
                     <NavItem eventKey={1} href="./views/About">
-                        About Us
+                        About
                 </NavItem>
                     <NavItem eventKey={2} href="./views/Services">
                         Services
@@ -27,7 +27,7 @@ const NavBar = () => {
                         Technologies
                 </NavItem>
                     <NavItem eventKey={4} href="./views/Contact">
-                        Contact Us
+                        Contact
                 </NavItem>
                 </Nav>
             </Navbar.Collapse>
