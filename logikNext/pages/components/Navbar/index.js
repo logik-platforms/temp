@@ -10,7 +10,7 @@ const NavBar = () => {
                 <Navbar.Brand>
                     <a href="/">
                         <img id="navLogo" src={require("../../img/FullSizeRender.png")} />
-                        Logik Platforms
+                        <p className="logikHeader">Logik Platforms</p>
                     </a>
                 </Navbar.Brand>
                 <Navbar.Toggle />

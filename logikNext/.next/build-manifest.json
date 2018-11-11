@@ -17,6 +17,10 @@
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
+    "/views/Contact": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
