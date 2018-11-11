@@ -1,8 +1,9 @@
 import React from "react";
+import "./About.css";
 
 const About = () => {
     return (
-<div>
+<div className="about">
     <h1>About Logik Platforms</h1>
     <p>
     Logik Platforms provides industry-leading natural language processing, 

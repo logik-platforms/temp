@@ -2,7 +2,7 @@
 import Head from "./components/head";
 import Landing from "./components/Landing";
 import NavBar from "./components/Navbar";
-import Footer from "./components/Footer";
+
 
 
 // Views
@@ -21,6 +21,7 @@ const App = () => (<div>
     <Landing />
     <About />
     <Services />
+    <Technologies />
     <Contact />
 </div>
 )

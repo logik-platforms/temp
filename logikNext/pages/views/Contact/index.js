@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Modal, ButtonToolbar, Button } from "react-bootstrap";
+import "./Contact.css";
+// import FooterPage from "../../components/FooterPage";
 
 
 class Contact extends Component {
@@ -23,6 +25,7 @@ class Contact extends Component {
 
     render () {
         return (
+       <div className="contact">
             <ButtonToolbar>
                 <Button bsStyle="primary" onClick={this.handleShow}>
                 Contact Us
@@ -49,6 +52,9 @@ class Contact extends Component {
                 </Modal.Footer>
                 </Modal>
             </ButtonToolbar>
+            {/* <FooterPage /> */}
+       </div>
+
         )
     }
 }
