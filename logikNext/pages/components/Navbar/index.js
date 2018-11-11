@@ -5,7 +5,7 @@ import { Nav, Navbar, NavItem } from "react-bootstrap"
 
 const NavBar = () => {
     return (
-        <Navbar>
+        <Navbar fixedTop>
             <Navbar.Header>
                 <Navbar.Brand>
                     <a href="/">
