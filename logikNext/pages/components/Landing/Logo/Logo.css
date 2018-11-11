@@ -1,0 +1,42 @@
+#titleTextWrapper {
+    position: relative;
+}
+
+#titleText {
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    /* position: absolute; */
+    z-index: 2000;
+    margin-top: 0.35em;
+}
+
+#Lslash {
+    letter-spacing: -0.35px;
+}
+
+#slashP {
+    letter-spacing: -4px;
+}
+
+#logoImg {
+    width: 100px;
+    height: 95.2px;
+}
+
+#pageCenter {
+    display: flex;
+    align-items: center;
+}
+
+.glitched {
+    -ms-transform: skew(-10deg);
+    /* IE 9 */
+    -webkit-transform: skew(-10deg);
+    /* Safari 3-8 */
+    transform: skew(-10deg);
+    background: url(../../../img/staticNoise.png) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
