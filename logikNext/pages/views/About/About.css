@@ -2,5 +2,17 @@
     background: blue;
     background-image: url("../../img/software-development.jpg");
     height: 1000px;
+    display:block;
+    white-space: pre-wrap;
 
+}
+
+.aboutTitle {
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutBody {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
