@@ -13,12 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.2",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.16.4",
     "next": "^7.0.2",
     "next-images": "^1.0.1",
-    "node-sass": "^4.10.0",
     "react": "^16.6.1",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.1",
