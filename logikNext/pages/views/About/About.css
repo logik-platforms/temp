@@ -1,18 +1,27 @@
-.about {
-    background: blue;
+body {
     background-image: url("../../img/software-development.jpg");
-    height: 1000px;
+}
+.about {
     display:block;
     white-space: pre-wrap;
+    margin-top: 18%;
+    margin-left: 5%;
 
 }
 
 .aboutTitle {
-font-size: 35px;
+font-size: 55px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
 .aboutBody {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+.slogan{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
 }

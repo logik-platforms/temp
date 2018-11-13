@@ -19,10 +19,6 @@ const App = () => (<div>
     <Head />
     <NavBar />
     <Landing />
-    <About />
-    <Services />
-    <Technologies />
-    <Contact />
 </div>
 )
 

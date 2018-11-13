@@ -1,15 +1,14 @@
-import React from "react";
-import ModalContact from "../../components/ModalContact";
-import "./Contact.css";
-
+import React from 'react';
+import ContactForm from "../../components/ContactForm";
 
 const Contact = () => {
-    return (
+    return(
         <div>
-            <ModalContact />
+            <h1>Contact Us</h1>
+            
+            <ContactForm />
         </div>
-
     )
 }
 
-export default Contact;
+  export default Contact;

@@ -17,6 +17,7 @@
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.16.4",
     "mdbootstrap": "^4.5.13",
+    "mdbreact": "^4.3.0",
     "next": "^7.0.2",
     "next-images": "^1.0.1",
     "node-sass": "^4.10.0",
