@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Modal, ButtonToolbar, Button } from "react-bootstrap";
 
 
-
 class ModalContact extends Component {
     constructor(props, context) {
         super(props, context);
