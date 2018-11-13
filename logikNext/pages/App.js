@@ -29,7 +29,6 @@ const App = (props) => (
             </div>
             }
               <div className='section project--one'>
-                  {/* <span className='project__number'>1</span> */}
                   <Landing />
               </div>
               <div className='section project--two'>
@@ -48,7 +47,8 @@ const App = (props) => (
 
 export default App
 
-{/* <div>
+{/* preexisting components
+     <div>
     <Head />
     <NavBar />
     <Landing />
