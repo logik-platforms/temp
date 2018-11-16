@@ -1,11 +1,11 @@
-body {
+.aboutContainer {
     background-image: url("../../img/software-development.jpg");
+height: 1000px;
 }
 .about {
     display:block;
     white-space: pre-wrap;
-    margin-top: 18%;
-    margin-left: 5%;
+    margin: 0;
 
 }
 

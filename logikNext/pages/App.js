@@ -19,7 +19,9 @@ const App = () => (<div>
     <Head />
     <NavBar />
     <Landing />
+<Contact />
+
 </div>
 )
 
-export default App
+export default App;

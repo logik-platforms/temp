@@ -7,9 +7,11 @@ import "./Services.css";
 
 const Services = () => {
     return (
+        <div className="servicesContainer">
         <div className="services">
             <CustomDevelopment />
             <MobileApp />
+        </div>
         </div>
     )
 }

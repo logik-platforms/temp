@@ -5,6 +5,7 @@ import "./About.css";
 class About extends Component {
 render() {
     return (
+      <div className="aboutContainer">
         <div className="about">
         <Grid>
           <Row className="show-grid">
@@ -24,6 +25,7 @@ application and web design.
             </Col>
           </Row>
           </Grid>
+        </div>
         </div>
         )
 }}

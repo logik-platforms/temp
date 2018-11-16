@@ -29,6 +29,9 @@ class ContactForm extends Component {
   
     render() {
       return (
+        <div className="contactForm">
+        <div className="card">
+        <div className="card-body">
         <Form horizontal>
            <FormGroup controlId="formHorizontalName">
           <Col componentClass={ControlLabel} sm={2}>
@@ -84,6 +87,10 @@ class ContactForm extends Component {
           </Col>
         </FormGroup>
       </Form>
+
+      </div>
+      </div>
+        </div>
       );
     }
   }
