@@ -9,3 +9,21 @@
     /* Likely future */
     pointer-events: none;
 }
+
+#section1 {
+    background-image: url("img/Slide\ 1\ Servers.jpg");
+    background-size: cover;
+    background-position: center 80%;
+}
+
+#section2 {
+    background-image: url("img/slide-2-brain.jpg");
+    background-size: cover;
+    background-position: center 80%;
+}
+
+#section3 {
+    background-image: url("img/slide-3-laptop.jpg");
+    background-size: cover;
+    background-position: center 80%;
+}

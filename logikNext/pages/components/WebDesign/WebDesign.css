@@ -1,0 +1,15 @@
+.webDesign {
+    display: block;
+    white-space: pre-wrap;
+    color: white;
+}
+
+.webTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.webBody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

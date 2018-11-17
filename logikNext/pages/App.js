@@ -6,50 +6,43 @@ import Footer from "./components/Footer";
 import ReactFullpage from '@fullpage/react-fullpage/dist/react-fullpage-commonjs';
 
 // Views
+import About from "./views/About";
 import Services from "./views/Services";
 import Technologies from "./views/Technologies";
 import Contact from "./views/Contact";
 
 // CSS
-import "./CSSreset.css"
 import "./App.css"
 
 const App = (props) => (
     <div className='slider'>
-    <Head />
-    <ReactFullpage
-    //  {...opts}
-      render={({ state, fullpageApi }) => {
-        return (
-          <ReactFullpage.Wrapper>
-            {props.children &&
-            <div className='section section--home '>
-                {props.children}
-                <button onClick={() => fullpageApi.moveSectionDown()}>Hello</button>
-            </div>
-            }
-              <div className='section project--one'>
-                  <Landing />
-              </div>
-              <div className='section project--two'>
-                  <span className='project__number'>2</span>
-              </div>
-              <div className='section project--three'>
-                  <span className='project__number'>3</span>
-              </div>
-            
-          </ReactFullpage.Wrapper>
-        );
-      }}
-    />
-  </div>
+        <Head />
+        <ReactFullpage
+            licenseKey="OPEN-SOURCE-GPLV3-LICENSE"
+            scrollingSpeed={650}
+            render={({ state, fullpageApi }) => {
+                return (
+                    <ReactFullpage.Wrapper>
+                        <div className='section' id="landingSection">
+                            <Landing />
+                        </div>
+                        <div className='section' id="section1">
+                        <About />
+                        </div>
+                        <div className='section' id="section2">
+                            <Services />
+                        </div>
+                        <div className='section' id="section3">
+                            <Technologies />
+                        </div>
+                        <div className='section' id="section4">
+                            <Contact />
+                        </div>
+                    </ReactFullpage.Wrapper>
+                );
+            }}
+        />
+    </div>
 )
 
 export default App
-
-{/* preexisting components
-     <div>
-    <Head />
-    <NavBar />
-    <Landing />
-</div> */}

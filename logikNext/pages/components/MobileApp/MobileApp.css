@@ -1,0 +1,15 @@
+.mobileApp {
+    display: block;
+    white-space: pre-wrap;
+    color: white;
+}
+
+.mobileTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.mobileBody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
