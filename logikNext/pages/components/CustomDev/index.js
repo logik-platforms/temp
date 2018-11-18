@@ -5,9 +5,9 @@ const CustomDev = () => {
         <div>
             <h1>Custom Software Development</h1>
             <ul>
-                <li>Python</li>
+                <li><img alt="Python" src={require("../../img/python.png")} /></li>
                 <li>Java</li>
-                <li>Node</li>
+                <li><img alt="Node" src={require("../../img/nodejs.png")} /></li>
                 <li>Go</li>
                 <li>Swift</li>
             </ul>

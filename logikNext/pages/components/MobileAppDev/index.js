@@ -10,7 +10,7 @@ const MobileAppDev = () => {
                 <il>Swift</il>
                 <il>React Native</il>
             </ul>
-            <h4>Andriod</h4>
+            <h4><img alt="Android" src={require("../../img/andriod.png")} /></h4>
             <h6>We develop native apps for Android phone & tablets</h6>
             <ul>
                 <il>Java</il>

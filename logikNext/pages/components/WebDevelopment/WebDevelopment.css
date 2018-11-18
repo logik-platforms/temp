@@ -1,0 +1,22 @@
+.node{
+    width: 200px;
+}
+.php {
+    width: 120px;
+    margin-top: 8%;
+}
+
+.react{
+    width: 250px;
+
+}
+.webTitle{
+color: white;
+font-size: 40px;
+margin-left:10%;
+}
+.webSub {
+color:white;
+font-size: 20px;
+margin-left:15%;
+}

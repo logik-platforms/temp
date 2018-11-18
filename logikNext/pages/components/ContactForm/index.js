@@ -1,22 +1,33 @@
 import React from 'react';
-import { Col, Button, Form, FormGroup, Label, Input, FormText, Card, CardBody } from 'reactstrap';
+import { Col, Button, Form, FormGroup, Label, Input, FormText, Card, CardBody, CardTitle } from 'reactstrap';
+import "./ContactForm.css";
 
 export default class ContactForm extends React.Component {
     render() {
         return (
-            <Card>
+            <Card className="contactForm">
+                <CardTitle className="cardtitle">
+<Col sm={5}>
+Connect with us</Col>
+                </CardTitle>
                 <CardBody>
                     <Form>
                         <FormGroup row>
                             <Label for="fullName" sm={2}>Full Name</Label>
                             <Col sm={10}>
-                                <Input type="password" name="password" id="examplePassword" placeholder="John Smith" />
+                                <Input type="password" name="password" id="fullName" placeholder="John Smith" />
                             </Col>
                         </FormGroup>
                         <FormGroup row>
-                            <Label for="exampleEmail" sm={2}>Email</Label>
+                            <Label for="Email" sm={2}>Email</Label>
                             <Col sm={10}>
-                                <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+                                <Input type="email" name="email" id="email" placeholder="johnsmith@yourcompany.com" />
+                            </Col>
+                        </FormGroup>
+                        <FormGroup row>
+                            <Label for="phone" sm={2}>Phone</Label>
+                            <Col sm={10}>
+                                <Input type="number" name="phone" id="phone" placeholder="(555)-555-555" />
                             </Col>
                         </FormGroup>
                         <FormGroup row>
@@ -26,15 +37,9 @@ export default class ContactForm extends React.Component {
                             </Col>
                         </FormGroup>
                         <FormGroup row>
-                            <Label for="exampleSelectMulti" sm={2}>Select Multiple</Label>
+                            <Label for="exampleText" sm={2}>Message</Label>
                             <Col sm={10}>
-                                <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple />
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label for="exampleText" sm={2}>Text Area</Label>
-                            <Col sm={10}>
-                                <Input type="textarea" name="text" id="exampleText" />
+                                <Input type="textarea" name="text" id="message" placeholder="Tell us about your future project.." />
                             </Col>
                         </FormGroup>
                         <FormGroup row>
@@ -42,47 +47,12 @@ export default class ContactForm extends React.Component {
                             <Col sm={10}>
                                 <Input type="file" name="file" id="exampleFile" />
                                 <FormText color="muted">
-                                    This is some placeholder block-level help text for the above input.
-                                    It's a bit lighter and easily wraps to a new line.
+                                    Please upload relevent files for request. (ie. RFP Proposal Documents, Wireframes)
             </FormText>
                             </Col>
                         </FormGroup>
-                        <FormGroup tag="fieldset" row>
-                            <legend className="col-form-label col-sm-2">Radio Buttons</legend>
-                            <Col sm={10}>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="radio" name="radio2" />{' '}
-                                        Option one is this and that—be sure to include why it's great
-              </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="radio" name="radio2" />{' '}
-                                        Option two can be something else and selecting it will deselect option one
-              </Label>
-                                </FormGroup>
-                                <FormGroup check disabled>
-                                    <Label check>
-                                        <Input type="radio" name="radio2" disabled />{' '}
-                                        Option three is disabled
-              </Label>
-                                </FormGroup>
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label for="checkbox2" sm={2}>Checkbox</Label>
-                            <Col sm={{ size: 10 }}>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" id="checkbox2" />{' '}
-                                        Check me out
-              </Label>
-                                </FormGroup>
-                            </Col>
-                        </FormGroup>
                         <FormGroup check row>
-                            <Col sm={{ size: 10, offset: 2 }}>
+                            <Col sm={{ size: 10, offset: 10 }}>
                                 <Button>Submit</Button>
                             </Col>
                         </FormGroup>

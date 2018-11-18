@@ -1,0 +1,14 @@
+.contactTitle {
+    margin-top: 25% !important;
+    margin-left: 10%;
+    color: white;
+}
+.contactBody {
+    margin-left: 15%;
+    color: white;
+}
+.contactFormDiv {
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 600px;
+}

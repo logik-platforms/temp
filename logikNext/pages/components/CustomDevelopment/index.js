@@ -4,7 +4,7 @@ import "./CustomDevelopment.css"
 const CustomDevelopment = () => {
     return (
         <div className="customDevelopment">
-            <h1 className="customTitle"> Develop a Custom Software Solution </h1>
+            <h1 className="customTitle">  Develop a Custom Software Solution </h1>
             <p className="customBody">{`
         Logik Platforms has the ability to develop custom solutions
         for a range of applications, including large databases, payment systems, and more.

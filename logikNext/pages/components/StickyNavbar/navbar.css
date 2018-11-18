@@ -1,0 +1,20 @@
+
+.navbar-default {
+    background: none !important;
+    color: white !important;
+  }
+
+#navLogo {
+    width: 5%;
+}
+.navtitle{
+    color: white;
+    font-size: 30px;
+}
+.navlink {
+    color: white;
+    font-size: 18px;
+}
+.navlogo {
+    width: 3%;
+}
