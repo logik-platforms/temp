@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Col, Checkbox, Button, FormGroup, ControlLabel, FormControl} from 'react-bootstrap';
-
+import "./ContactForm.css";
 
 // if (typeof window !== 'undefined') { require('mbdreact'); }
 
@@ -38,12 +38,12 @@ class ContactForm extends Component {
             Full Name
           </Col>
           <Col sm={10}>
-            <FormControl type="email" placeholder="John Smith" />
+            <FormControl type="name" placeholder="John Smith" />
           </Col>
         </FormGroup>
 
         <FormGroup controlId="formHorizontalEmail">
-          <Col componentClass={ControlLabel} sm={2}>
+          <Col componentClass={ControlLabel} sm={4}>
             Email
           </Col>
           <Col sm={10}>
@@ -52,28 +52,28 @@ class ContactForm extends Component {
         </FormGroup>
       
         <FormGroup controlId="formHorizontalNumber">
-          <Col componentClass={ControlLabel} sm={2}>
+          <Col componentClass={ControlLabel} sm={5}>
             Contact Number
           </Col>
           <Col sm={10}>
-            <FormControl type="password" placeholder="(555)-555-5555" />
+            <FormControl type="number" placeholder="(555)-555-5555" />
           </Col>
         </FormGroup>
 
         <FormGroup controlId="formControlsSelectMultiple">
-      <ControlLabel>Multiple select</ControlLabel>
+      <ControlLabel>Select (multiple)</ControlLabel>
       <FormControl componentClass="select" multiple>
         <option value="select">select (multiple)</option>
-        <option value="other">Custom Software Development</option>
-        <option value="other">Mobile App Development</option>
-        <option value="other">Web Development/Design</option>
+        <option value="software">Custom Software Development</option>
+        <option value="mobile">Mobile App Development</option>
+        <option value="web">Web Development/Design</option>
         <option value="other">Misc</option>
       </FormControl>
     </FormGroup>
 
      <FormGroup controlId="formControlsTextarea">
-      <ControlLabel>Textarea</ControlLabel>
-      <FormControl componentClass="textarea" placeholder="textarea" />
+      <ControlLabel>Message</ControlLabel>
+      <FormControl componentClass="textarea" placeholder="Tell us a little about your companies vision here!" />
     </FormGroup>
       
     <FormGroup>

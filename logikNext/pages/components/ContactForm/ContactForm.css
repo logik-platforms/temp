@@ -1,0 +1,14 @@
+#formControlsSelectMultiple{
+ 
+    margin-left: 19%;
+}
+.control-label{
+    margin-left: 20%;  
+}
+#formControlsTextarea{
+    width:70%;
+    margin-left:15%;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
