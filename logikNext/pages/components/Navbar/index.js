@@ -1,8 +1,6 @@
 import React from 'react'
 import "./navbar.css"
 
-import { Nav, Navbar, NavItem } from "react-bootstrap"
-
 const NavBar = () => {
     return (
         <Navbar fixedTop>

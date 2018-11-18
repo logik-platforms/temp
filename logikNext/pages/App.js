@@ -1,7 +1,7 @@
 // Components
 import Head from "./components/head"
 import Landing from "./components/Landing"
-import NavBar from "./components/Navbar";
+// import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ReactFullpage from '@fullpage/react-fullpage/dist/react-fullpage-commonjs';
 

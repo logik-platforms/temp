@@ -12,13 +12,13 @@ const Technologies = () => {
             <div className="slide unselectable">
                 <WebDevelopment />
             </div>
-            <div class="slide unselectable">
+            <div className="slide unselectable">
                 <DataStorage />
             </div>
-            <div class="slide unselectable">
+            <div className="slide unselectable">
                 <CustomDev />
             </div>
-            <div class="slide unselectable">
+            <div className="slide unselectable">
                 <MobileAppDev />
             </div>
         </div>
