@@ -8,6 +8,11 @@ const handle = getRequestHandler()
 
 const PORT = process.env.PORT || 3000
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+mongoose.connect("mongodb://localhost/populate", { useNewUrlParser: true });
+
 app.prepare().then(() => {
     const server = express()
 
