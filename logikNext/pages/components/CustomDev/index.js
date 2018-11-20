@@ -5,7 +5,10 @@ import "./CustomDev.css";
 const CustomDev = () => {
     return (
         <div>
-            <h1>Custom Software Development</h1>
+           <Row>
+           <h1 className="customSD">Custom Software Development</h1>
+           </Row>
+
             <Container>
                 <Row>
                 <Col>

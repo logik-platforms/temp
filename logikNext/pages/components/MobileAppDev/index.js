@@ -5,12 +5,14 @@ import "./MobileAppDev.css";
 const MobileAppDev = () => {
     return (
         <div>
-            <h1>Mobile Applicaiton Development</h1>
+           <Row>
+           <h1 className="mobTitle">Mobile Applicaiton Development</h1>
+           </Row>
         <Container>
+ 
             <Row>
-            <h4>We Develop native apps for iPhone, iPad</h4>
+            <h4 className="mobSub">We Develop native apps for iPhone, iPad</h4>
             </Row>
-      
             <Row>
                 <Col>
                 <img alt="IOS Apple" className="ios" src={require("../../img/ios.png")} />
@@ -24,7 +26,7 @@ const MobileAppDev = () => {
                     </Row>
 <Row>
 
-            <h4>We develop native apps for Android phone &amp; tablets</h4>
+            <h4 className="mobSub">We develop native apps for Android phone &amp; tablets</h4>
 </Row>
             <Row>
                 <Col>

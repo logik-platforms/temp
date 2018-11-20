@@ -13,3 +13,9 @@
 .firebase {
     width: 200px;
 }
+.dataTitle{
+    color: white;
+    font-size: 40px;
+    margin-left:10%;
+    margin-top: 5% !important;
+    }

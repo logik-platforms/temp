@@ -5,7 +5,9 @@ import "./DataStorage.css";
 const DataStorage = () => {
     return (
         <div>
-            <h1>Secure Data Storage</h1>
+            <Row>
+            <h1 className="dataTitle">Secure Data Storage</h1>
+            </Row>
             <Container>
                 <Row>
                 <Col> <img alt="Oracle" className="oracle" src={require("../../img/oracle.png")} />     

@@ -5,7 +5,6 @@ import { Container, Col, Row } from "reactstrap";
 const WebDevelopment = () => {
     return (
         <div>
-             <br></br><br></br>
             <h1 className="webTitle">Web Development</h1>
             <br></br><br></br> <br></br><br></br>
             <h4 className="webSub">Front-End</h4>
@@ -27,7 +26,10 @@ const WebDevelopment = () => {
         <img alt="PHP" className="php" src={require("../../img/php.png")} />
         </Col>
         <Col>
-        <img alt="Python" className="node" src={require("../../img/python.png")} />
+        <img alt="Python" className="python" src={require("../../img/python.png")} />
+        </Col>
+        <Col>
+        <img alt="Go Programming Language" className="goWeb" src={require("../../img/golang.png")} />
         </Col>
     </Row>
 </Container>

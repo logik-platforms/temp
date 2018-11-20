@@ -13,3 +13,9 @@
 .nodejs{
     width: 200px;
 }
+.customSD {
+        color: white;
+        font-size: 40px;
+        margin-left:10%;
+        margin-top: 5% !important;
+}
