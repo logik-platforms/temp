@@ -1,17 +1,24 @@
-.python {
-    width: 200px;
+.pythoncsd {
+    width: 250px;
+    margin-top: 10%;
 }
-.java {
+.javacsd {
     width: 200px; 
+    margin-top: 10%;
 }
 .golang {
-    width: 200px;
+    width: 170px;
+    margin-left: 10%;;
 }
-.swift{
-    width: 200px;
+.swifticon{
+    width: 125px;
+    margin-left: -30%;
+    margin-top: 5%;
 }
 .nodejs{
     width: 200px;
+    margin-top: 50%;
+    margin-left: -30%;
 }
 .customSD {
         color: white;

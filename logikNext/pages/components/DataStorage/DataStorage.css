@@ -1,17 +1,28 @@
 .oracle {
     width: 200px;
+    margin-top: 26%;
+    margin-left: -15%;
 }
 .mysql{
     width: 200px;
+    margin-top: 7%;
+    margin-left: -25%;
 }
 .postgresql{
-    width:200px;
+    width:170px;
+    margin-left: -40%;
+    margin-top: 7%;
+   
 }
 .mongodb{
     width: 200px;
+    margin-top: 15%;
 }
 .firebase {
     width: 200px;
+    background: grey;
+    margin-top: 15%;
+    margin-left: -30%;
 }
 .dataTitle{
     color: white;

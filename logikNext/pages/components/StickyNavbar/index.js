@@ -38,7 +38,7 @@ import {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/"><span className="navlink">About</span></NavLink>
+                <NavLink href="#aboutPage"><span className="navlink">About</span></NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -78,7 +78,7 @@ import {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/components/"><span className="navlink">Contact</span></NavLink>
+                <NavLink href="#contact"><span className="navlink">Contact</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

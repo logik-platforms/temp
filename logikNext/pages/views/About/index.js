@@ -5,7 +5,7 @@ import {Container, Row, Col} from "reactstrap";
 
 const About = () => {
     return (
-        <div className="about">
+        <div idName="aboutPage" className="about">
 <Row>
 <h1 className="aboutTitle">Logik Platforms</h1>
 </Row>
