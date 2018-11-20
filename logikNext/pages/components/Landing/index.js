@@ -1,11 +1,13 @@
 import Logo from "./Logo"
-import BounceScroll from "../BounceScroll";
+import DownArrow from "../DownArrow";
 import "./Landing.css"
 
 const Landing = () => (
     <div id="landingBackground">
         <Logo />
-        <BounceScroll />
+       <div>
+       <DownArrow />
+       </div>
     </div>
 )
 

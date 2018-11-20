@@ -1,0 +1,26 @@
+body { background: black;}
+a { color: white; text-decoration: none; }
+
+.down {
+  text-align: center;
+  margin-top: 660px !important;
+}
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+
+}
+
+
+@keyframes bounce {
+  0%, 30%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-50px);
+  }
+  60% {
+    transform: translateY(-35px);
+  }
+}
