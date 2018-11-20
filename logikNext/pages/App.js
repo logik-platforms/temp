@@ -1,10 +1,9 @@
 // Components
 import Head from "./components/head"
 import Landing from "./components/Landing"
-// import NavBar from "./components/Navbar";
-import Footer from "./components/Footer";
 import ReactFullpage from '@fullpage/react-fullpage/dist/react-fullpage-commonjs';
 import StickyNavbar from "./components/StickyNavbar";
+
 
 // Views
 import About from "./views/About";
@@ -30,14 +29,17 @@ const App = (props) => (
                         <div className='section' id="section1">
                         <StickyNavbar />
                         <About />
+
                         </div>
                         <div className='section' id="section2">
                         <StickyNavbar />
                             <Services />
+
                         </div>
                         <div className='section' id="section3">
                         <StickyNavbar />
                             <Technologies />
+
                         </div>
                         <div className='section' id="section4">
                         <StickyNavbar />

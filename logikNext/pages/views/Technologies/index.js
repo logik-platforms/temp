@@ -1,4 +1,5 @@
 import React from "react";
+import BounceScroll from "../../components/BounceScroll";
 
 // Slides
 import WebDevelopment from "../../components/WebDevelopment";
@@ -21,6 +22,7 @@ const Technologies = () => {
             <div className="slide unselectable">
                 <MobileAppDev />
             </div>
+            <BounceScroll />
         </div>
     )
 }

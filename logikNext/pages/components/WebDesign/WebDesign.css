@@ -2,11 +2,13 @@
     display: block;
     white-space: pre-wrap;
     color: white;
+    margin-left: 5%;
 }
 
 .webTitle {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
+    margin-top: 10%;
 }
 
 .webBody {

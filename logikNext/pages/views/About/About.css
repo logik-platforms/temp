@@ -1,6 +1,8 @@
 .about {
     display: block;
     white-space: pre-wrap;
+    color: white;
+    margin-left: 7%;
 }
 
 .aboutTitle {

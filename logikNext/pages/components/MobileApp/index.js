@@ -18,6 +18,7 @@ const MobileApp = () => {
         solutions across iPhone, iPad, Apple Watch, and Apple TV.
 
         Android Development
+        We develop native apps for Android phone and tablets.
         `}
 
         </p>

@@ -48,7 +48,7 @@ export default class ContactForm extends React.Component {
                             <Label for="phone" sm={2}>Phone</Label>
                             <Col sm={10}>
                                 {/* <Input type="number" name="phone" id="phone" placeholder="(555)-555-555" /> */}
-                                <PhoneInput inputComponenet={Input} placeholder="Enter phone number" value={this.state.phone} onChange={phone => this.setState({ phone })} />
+                                <PhoneInput inputComponent={Input} placeholder="Enter phone number" value={this.state.phone} onChange={phone => this.setState({ phone })} />
                             </Col>
                         </FormGroup>
                         <FormGroup row>
