@@ -48,10 +48,13 @@ ul, ol {
     transition: .22s ease;
 }
 footer {
-    height: 400px !important;
+    height: 200px !important;
     margin-top: 4.5% !important;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
 .fp-tableCell {
-    height: 400px !important;
+    height: 200px !important;
 
 }

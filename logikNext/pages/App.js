@@ -3,6 +3,7 @@ import Head from "./components/head"
 import Landing from "./components/Landing"
 import ReactFullpage from '@fullpage/react-fullpage/dist/react-fullpage-commonjs';
 import StickyNavbar from "./components/StickyNavbar";
+import FooterPage from "./components/FooterPage";
 
 
 // Views
@@ -44,6 +45,7 @@ const App = (props) => (
                         <div className='section' id="section4">
                         <StickyNavbar />
                             <Contact />
+                            <FooterPage />
                         </div>
                     </ReactFullpage.Wrapper>
                 );

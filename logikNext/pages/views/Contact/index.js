@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "reactstrap";
 import ContactForm from "../../components/ContactForm";
-import FooterPage from "../../components/FooterPage";
+// import FooterPage from "../../components/FooterPage";
 import "./Contact.css"
 
 
@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
                 </Col>
             </Row>
-            <FooterPage />
+            {/* <FooterPage /> */}
         </div>
     )
 }

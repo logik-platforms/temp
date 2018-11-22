@@ -11,15 +11,15 @@
 }
 
 #section1 {
-    background-image: url("img/Slide\ 1\ Servers.jpg");
+    background-image: url("img/slide-1-touch-pad-2.jpg");
     background-size: cover;
     background-position: center 80%;
 }
 
 #section2 {
-    background-image: url("img/slide-2-brain.jpg");
+    background-image: url("img/slide-2-brainlowered.jpg");
     background-size: cover;
-    background-position: center 80%;
+    background-position: center 0%;
 }
 
 #section3 {

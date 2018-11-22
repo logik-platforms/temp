@@ -5,9 +5,9 @@ import {Container, Row, Col} from "reactstrap";
 
 const About = () => {
     return (
-        <div idName="aboutPage" className="about">
+        <div id="aboutPage" className="about">
 <Row>
-<h1 className="aboutTitle">Logik Platforms</h1>
+<h1 className="aboutTitle">What We Do</h1>
 </Row>
   <Col>
   <p className="aboutBody">{`
