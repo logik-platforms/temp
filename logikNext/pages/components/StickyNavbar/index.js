@@ -14,7 +14,7 @@ import {
   import "./navbar.css";
   
 
-  export default  class StickyNavbar extends Component {
+  export default class StickyNavbar extends Component {
   constructor(props) {
     super(props);
 
@@ -31,7 +31,7 @@ import {
   render() {
     return (
       <div>
-        <Navbar color="#fffffff" light expand="sm">
+        <Navbar color="#fffffff" light expand="sm" className="navbar-default fixed-top">
         <img alt="Quantum Logo" className="navlogo" src={require("../../img/FullSizeRender.png")} align="left" />
           <NavbarBrand href="/"><span className="navtitle">Logik Platforms</span></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

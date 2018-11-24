@@ -15,43 +15,48 @@ import Contact from "./views/Contact";
 // CSS
 import "./App.css"
 
-const App = (props) => (
-    <div className='slider'>
-        <Head />
-        <ReactFullpage
-            licenseKey="OPEN-SOURCE-GPLV3-LICENSE"
-            scrollingSpeed={650}
-            render={({ state, fullpageApi }) => {
-                return (
-                    <ReactFullpage.Wrapper>
-                        <div className='section' id="landingSection">
-                            <Landing />
-                        </div>
-                        <div className='section' id="section1">
-                        <StickyNavbar />
-                        <About />
-
-                        </div>
-                        <div className='section' id="section2">
-                        <StickyNavbar />
-                            <Services />
-
-                        </div>
-                        <div className='section' id="section3">
-                        <StickyNavbar />
-                            <Technologies />
-
-                        </div>
-                        <div className='section' id="section4">
-                        <StickyNavbar />
-                            <Contact />
-                            <FooterPage />
-                        </div>
-                    </ReactFullpage.Wrapper>
-                );
-            }}
-        />
-    </div>
-)
+class App extends React.Component {
+    state = {
+        
+    }
+    render() {
+        return (
+            <div className='slider'>
+                <Head />
+                <StickyNavbar />
+                <ReactFullpage
+                    licenseKey="OPEN-SOURCE-GPLV3-LICENSE"
+                    scrollingSpeed={650}
+                    render={({ state, fullpageApi }) => {
+                        return (
+                            <ReactFullpage.Wrapper>
+                                <div className='section' id="landingSection">
+                                    <Landing />
+                                </div>
+                                <div className='section' id="section1">
+                                    <About />
+        
+                                </div>
+                                <div className='section' id="section2">
+                                    <Services />
+        
+                                </div>
+                                <div className='section' id="section3">
+                                    <Technologies />
+        
+                                </div>
+                                <div className='section' id="section4">
+                                    <Contact />
+                                    <FooterPage />
+                                </div>
+                            </ReactFullpage.Wrapper>
+                        );
+                    }}
+                />
+            </div>
+        )
+    }
+}
+    
 
 export default App

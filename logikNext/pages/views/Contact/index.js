@@ -7,7 +7,7 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div idName="contact">
+        <div id="contact">
             <Row>
                 <Col>
                     <div>
