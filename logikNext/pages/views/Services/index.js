@@ -17,7 +17,6 @@ const Services = () => {
             <div className="slide unselectable">
                 <WebDesign />
             </div>
-            <BounceScroll />
         </div>
     )
 }

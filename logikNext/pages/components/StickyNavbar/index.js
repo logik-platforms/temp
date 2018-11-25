@@ -11,6 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+
   import "./navbar.css";
   
 
@@ -20,7 +21,7 @@ import {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: true
     };
   }
   toggle() {
@@ -32,7 +33,7 @@ import {
     return (
       <div>
         <Navbar color="#fffffff" light expand="sm" className="navbar-default fixed-top">
-        <img alt="Quantum Logo" className="navlogo" src={require("../../img/FullSizeRender.png")} align="left" />
+        <img alt="Logik Logo" className="navlogo" src={require("../../img/FullSizeRender.png")} align="left" />
           <NavbarBrand href="/"><span className="navtitle">Logik Platforms</span></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

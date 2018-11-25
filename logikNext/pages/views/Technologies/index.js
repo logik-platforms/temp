@@ -22,7 +22,6 @@ const Technologies = () => {
             <div className="slide unselectable">
                 <MobileAppDev />
             </div>
-            <BounceScroll />
         </div>
     )
 }
